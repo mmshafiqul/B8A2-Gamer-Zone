@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 auto;
+}
+
+nav{
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+    min-height: 50px;
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-logo img {
+    width: 86px;
+    height: 40px;
+}
+
+.nav-logo h1 {
+    font-size: 45px;
+}
+
+.game-text {
+    color: #FF42A5;
+}
+
+.nav-menu {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #3C354F;
+    font-weight: 500;
+}
+
+.nav-menu a {
+    text-decoration: none;
+
+}
+
+.follow-us {
+    display: flex;
+    align-items: center;
+    width: 262px;
+    height: 56px;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    font-size: 18px;
+}
+
+.follow-us .fa-brands{
+    font-size: 24px;
+}
+
+.follow-us .fa-youtube{
+    color: red;
+}

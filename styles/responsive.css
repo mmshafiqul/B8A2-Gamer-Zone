@@ -1,0 +1,43 @@
+/* responsive for L size device */
+
+@media screen and (max-width:425px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-logo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+        margin-bottom: 10px;
+    }
+
+
+}
+
+
+/* responsive for tablet device */
+
+@media screen and (min-width:425px) and (max-width:768px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-logo {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-menu {
+        width: 100%;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+
+
+}
