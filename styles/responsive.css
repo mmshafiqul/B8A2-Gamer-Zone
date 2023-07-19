@@ -121,8 +121,9 @@
         margin-top: 0;
     }
 
-    .online-games-title {
-        font-size: 25px;
+    .online-games-title,
+    .gradient-text {
+        font-size: 35px;
 
     }
 
@@ -135,128 +136,228 @@
 
     .online-games-img p {
         font-size: 14px;
+        text-align: center;
 
     }
 
     /* online games section ends */
 
+    /* play instant section starts */
 
-
-}
-
-
-/* responsive for tablet device */
-
-@media screen and (min-width:426px) and (max-width:768px) {
-    /* nav section starts */
-
-    .nav-container {
+    .play-instant {
         flex-direction: column;
-    }
-
-    .nav-logo {
-        width: 100%;
-        justify-content: center;
-    }
-
-    .nav-menu {
-        width: 100%;
-        justify-content: space-around;
-        margin-bottom: 10px;
-    }
-
-    /* nav section ends */
-
-    /* banner section starts */
-    .banner {
-        max-width: 768px;
-        padding: 0 10px;
-        background-image: none;
-    }
-
-    .banner-container {
-        flex-direction: column-reverse;
-        max-width: 768px;
+        max-width: 425px;
         align-items: center;
-    }
-
-    .banner-text {
-        width: 100%;
-        background-image: url(../images/Group\ 14.png);
-        background-repeat: no-repeat;
-        background-size: 768px;
-        padding: 30px 50px 30px;
-
-    }
-
-    .banner-text .banner-title {
-        font-size: 25px;
-        justify-content: center;
-    }
-
-    .banner-text .goat {
-        font-size: 50px;
-    }
-
-    .banner-tex p span {
-        font-size: 5px;
-    }
-
-    .banner-img img {
-        width: 100%;
-    }
-
-    .primary-btn {
-        padding: 15px 25px;
-        font-size: 16px;
-        margin-right: 25px;
-    }
-
-    .go-rogue-btn {
-        padding: 15px 15px;
-        font-size: 16px;
-
-    }
-
-    /* banner section ends */
-
-    /* we are gamer section starts */
-    .we-are {
-        background: none;
-    }
-
-    .we-are-gamer {
-        flex-direction: column;
-        max-width: 768px
-    }
-
-    .we-are-gamer-img img {
-        width: 100%;
-    }
-
-    .we-are-gamer-text {
-        width: 100%;
-        padding: 0 50px;
-        text-align: center;
-    }
-
-    /* we are gamer section ends */
-
-    /* online games section starts */
-    .online-games {
-        max-width: 768px;
-    }
-
-    .online-games-img {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding: 40px;
-        justify-content: center;
         margin-top: 0;
     }
 
-    /* online games section ends */
+    .play-instant-text {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .play-instant-title,
+    .gradient-text {
+        font-size: 35px;
+    }
+
+    .play-instant-desc {
+        font-size: 18px;
+    }
+
+    .play-instant-img img {
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .play-instant-badge-img img {
+        width: 150px;
+    }
+
+    .play-instant-badge-img {
+        position: relative;
+        bottom: 120px;
+        left: -60px;
+    }
+
+    /* gamer button list section starts */
+    .btn-container {
+        min-height: 60px;
+        justify-content: center;
+        max-width: 425px;
+        margin: 0 auto;
+        gap: 5px;
+
+    }
+
+    /* footer section starts */
+    .footer{
+        height: 120vh;
+    }
+    .anchor-link {
+        flex-wrap: wrap;
+        min-width: 300px;
+        padding: 25px;
+        gap: 25px;
+    }
+
+    .privacy-policy {
+        flex-wrap: wrap;
+        min-width: 300px;
+        padding: 25px;
+        gap: 25px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+
+    /* footer section starts */
 
 
+    /* responsive for tablet device */
 
-}
+    @media screen and (min-width: 426px) and (max-width: 768px) {
+
+        /* nav section starts */
+        .nav-container {
+            flex-direction: column;
+        }
+
+        .nav-logo {
+            width: 100%;
+            justify-content: center;
+        }
+
+        .nav-menu {
+            width: 100%;
+            justify-content: space-around;
+            margin-bottom: 10px;
+        }
+
+        /* nav section ends */
+
+        /* banner section starts */
+        .banner {
+            max-width: 768px;
+            padding: 0 10px;
+            background-image: none;
+        }
+
+        .banner-container {
+            flex-direction: column-reverse;
+            max-width: 768px;
+            align-items: center;
+        }
+
+        .banner-text {
+            width: 100%;
+            background-image: url(../images/Group\ 14.png);
+            background-repeat: no-repeat;
+            background-size: 768px;
+            padding: 30px 50px;
+        }
+
+        .banner-text .banner-title {
+            font-size: 25px;
+            justify-content: center;
+        }
+
+        .banner-text .goat {
+            font-size: 50px;
+        }
+
+        .banner-text p span {
+            font-size: 5px;
+        }
+
+        .banner-img img {
+            width: 100%;
+        }
+
+        .primary-btn {
+            padding: 15px 25px;
+            font-size: 16px;
+            margin-right: 25px;
+        }
+
+        .go-rogue-btn {
+            padding: 15px 15px;
+            font-size: 16px;
+
+        }
+
+        /* banner section ends */
+
+        /* we are gamer section starts */
+        .we-are {
+            background: none;
+        }
+
+        .we-are-gamer {
+            flex-direction: column;
+            max-width: 768px;
+        }
+
+        .we-are-gamer-img img {
+            width: 100%;
+        }
+
+        .we-are-gamer-text {
+            width: 100%;
+            padding: 0 50px;
+            text-align: center;
+        }
+
+        /* we are gamer section ends */
+
+        /* online games section starts */
+        .online-games {
+            max-width: 768px;
+        }
+
+        .online-games-img {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            padding: 40px;
+            justify-content: center;
+            margin-top: 0;
+        }
+
+        /* online games section ends */
+
+        /* play instant section starts */
+        .play-instant {
+            flex-direction: column;
+            max-width: 768px;
+            align-items: center;
+            margin-top: 0;
+        }
+
+        .play-instant-text {
+            padding: 30px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .play-instant-title,
+        .gradient-text {
+            font-size: 35px;
+        }
+
+        .play-instant-img img {
+            width: 600px;
+            margin-left: 50px;
+        }
+
+        .play-instant-badge-img img {
+            width: 300px;
+        }
+
+        .play-instant-badge-img {
+            position: relative;
+            bottom: 250px;
+            left: -60px;
+        }
+
+        /* play instant section starts */
+    }
