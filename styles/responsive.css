@@ -60,7 +60,7 @@
     .banner-img img {
         width: 100%;
     }
-    .sign-in-btn {
+    .primary-btn{
         padding: 15px 25px;
         font-size: 16px;
         margin-right: 25px;
@@ -71,6 +71,34 @@
     
     }
     /* banner section ends */
+    /* we are gamer section starts */
+    .we-are{
+        background: none;
+    }
+    .we-are-gamer {
+        flex-direction: column;
+        width: 425px;
+    }
+    .we-are-gamer-img{
+        width: 425px;
+    }
+    .we-are-gamer-img img {
+        width: 100%;
+    }
+    
+    .we-are-gamer-text {
+        text-align: center;
+        width: 100%;
+        padding: 0 50px;
+    }
+    .our-purpose {
+        font-size: 18px;
+    }
+    .quote-text {
+        font-size: 20px;
+    }
+    
+    /* we are gamer section ends */
 
 
 
@@ -137,7 +165,7 @@
     .banner-img img {
         width: 100%;
     }
-    .sign-in-btn {
+    .primary-btn {
         padding: 15px 25px;
         font-size: 16px;
         margin-right: 25px;
@@ -149,6 +177,26 @@
     }
 
     /* banner section ends */
+
+    /* we are gamer section starts */
+    .we-are{
+        background: none;
+    }
+    .we-are-gamer {
+        flex-direction: column;
+        max-width: 768px
+    }
+    .we-are-gamer-img img {
+        width: 100%;
+    }
+    
+    .we-are-gamer-text {
+        width: 100%;
+        padding: 0 50px;
+        text-align: center;
+    }
+
+    /* we are gamer section ends */
 
 
 

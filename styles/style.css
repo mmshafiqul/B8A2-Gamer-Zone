@@ -124,12 +124,13 @@ nav {
     width: 50%;
 
 }
-.banner-img img{
+
+.banner-img img {
     width: 650px;
     height: auto;
 }
 
-.sign-in-btn {
+.primary-btn {
     border-radius: 48px;
     background: #FF42A5;
     padding: 20px 30px;
@@ -138,7 +139,6 @@ nav {
     font-weight: 600;
     text-transform: uppercase;
     border: none;
-    margin-right: 25px;
 }
 
 .go-rogue-btn {
@@ -150,7 +150,59 @@ nav {
     font-weight: 600;
     text-transform: uppercase;
     border: none;
+    margin-left: 25px;
+
 
 }
 
 /* banner section ends */
+
+/* we are gamer section starts */
+.we-are {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.we-are-gamer {
+    width: 1400px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    gap: 50px;
+}
+
+.we-are-gamer-img {
+    width: 60%;
+}
+
+.we-are-gamer-text {
+    text-align: right;
+    width: 40%;
+}
+
+.we-are-gamer-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.we-are-gamer-desc {
+    color: #534C64;
+    font-size: 18px;
+}
+
+.our-purpose {
+    color: #534C64;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.quote-text {
+    color: #534C64;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* we are gamer section starts */
