@@ -164,6 +164,10 @@
     .play-instant-desc {
         font-size: 18px;
     }
+    .play-instant-img {
+        margin-bottom: 0;
+        height: 100vh;
+    }
 
     .play-instant-img img {
         width: 300px;
@@ -262,7 +266,7 @@
             justify-content: center;
         }
 
-        .banner-text .goat {
+        .banner-text, .goat {
             font-size: 50px;
         }
 

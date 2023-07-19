@@ -278,30 +278,34 @@ nav {
     display: flex;
     width: 1400px;
     margin: 100px auto 0;
-    align-items: center;
     justify-content: space-between;
 }
 
 .play-instant-text {
+    padding-top: 150px;
     text-align: right;
-    width: 341px;
+    flex: end;
+    align-items: center;
+
 }
 
 .play-instant-title {
     font-size: 48px;
     font-weight: 700;
+    max-width: 400px;
 }
 
 .play-instant-desc {
     color: #534C64;
     font-size: 18px;
+    max-width: 400px;
+
 
 }
 
 .play-instant-img {
-    margin-bottom: 0;
+    margin-bottom: 150px;
     height: 100vh;
-    margin-bottom: 200px;
 }
 
 .play-instant-badge-img {
