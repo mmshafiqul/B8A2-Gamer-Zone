@@ -53,52 +53,92 @@
         font-size: 50px;
     }
 
-    .banner-tex p span{
+    .banner-tex p span {
         font-size: 5px;
     }
 
     .banner-img img {
         width: 100%;
     }
-    .primary-btn{
+
+    .primary-btn {
         padding: 15px 25px;
         font-size: 16px;
         margin-right: 25px;
     }
+
     .go-rogue-btn {
         padding: 15px 15px;
         font-size: 16px;
-    
+
     }
+
     /* banner section ends */
     /* we are gamer section starts */
-    .we-are{
+    .we-are {
         background: none;
     }
+
     .we-are-gamer {
         flex-direction: column;
         width: 425px;
     }
-    .we-are-gamer-img{
+
+    .we-are-gamer-img {
         width: 425px;
     }
+
     .we-are-gamer-img img {
         width: 100%;
     }
-    
+
     .we-are-gamer-text {
         text-align: center;
         width: 100%;
         padding: 0 50px;
     }
+
     .our-purpose {
         font-size: 18px;
     }
+
     .quote-text {
         font-size: 20px;
     }
-    
+
     /* we are gamer section ends */
+
+    /* online games section starts */
+    .online-games {
+        display: flex;
+        flex-direction: column;
+        max-width: 425px;
+    }
+
+    .online-games-text {
+        padding: 30px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .online-games-title {
+        font-size: 25px;
+
+    }
+
+    .online-games-img {
+        flex-direction: column;
+        padding: 40px;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .online-games-img p {
+        font-size: 14px;
+
+    }
+
+    /* online games section ends */
 
 
 
@@ -140,7 +180,7 @@
         align-items: center;
     }
 
-    .banner-text{
+    .banner-text {
         width: 100%;
         background-image: url(../images/Group\ 14.png);
         background-repeat: no-repeat;
@@ -158,38 +198,42 @@
         font-size: 50px;
     }
 
-    .banner-tex p span{
+    .banner-tex p span {
         font-size: 5px;
     }
 
     .banner-img img {
         width: 100%;
     }
+
     .primary-btn {
         padding: 15px 25px;
         font-size: 16px;
         margin-right: 25px;
     }
+
     .go-rogue-btn {
         padding: 15px 15px;
         font-size: 16px;
-    
+
     }
 
     /* banner section ends */
 
     /* we are gamer section starts */
-    .we-are{
+    .we-are {
         background: none;
     }
+
     .we-are-gamer {
         flex-direction: column;
         max-width: 768px
     }
+
     .we-are-gamer-img img {
         width: 100%;
     }
-    
+
     .we-are-gamer-text {
         width: 100%;
         padding: 0 50px;
@@ -197,6 +241,21 @@
     }
 
     /* we are gamer section ends */
+
+    /* online games section starts */
+    .online-games {
+        max-width: 768px;
+    }
+
+    .online-games-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    /* online games section ends */
 
 
 
