@@ -10,7 +10,7 @@ body {
     margin: 0 auto;
 }
 
-nav{
+nav {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -68,10 +68,89 @@ nav{
     font-size: 18px;
 }
 
-.follow-us .fa-brands{
+.follow-us .fa-brands {
     font-size: 24px;
 }
 
-.follow-us .fa-youtube{
+.follow-us .fa-youtube {
     color: red;
 }
+
+/* banner section starts */
+.banner {
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+}
+
+.banner-container {
+    display: flex;
+    width: 1400px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.banner-text {
+    width: 50%;
+
+}
+
+.banner-text .banner-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.banner-text .goat {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.banner-text p span {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.banner-img {
+    width: 50%;
+
+}
+.banner-img img{
+    width: 650px;
+    height: auto;
+}
+
+.sign-in-btn {
+    border-radius: 48px;
+    background: #FF42A5;
+    padding: 20px 30px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    margin-right: 25px;
+}
+
+.go-rogue-btn {
+    border-radius: 48px;
+    background: #4EC5F7;
+    padding: 20px 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+
+}
+
+/* banner section ends */

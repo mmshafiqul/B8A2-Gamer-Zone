@@ -1,6 +1,7 @@
 /* responsive for L size device */
-
 @media screen and (max-width:425px) {
+    /* nav section starts */
+
     .nav-container {
         flex-direction: column;
     }
@@ -17,13 +18,70 @@
         margin-bottom: 10px;
     }
 
+    /* nav section ends */
+
+    /* banner section starts */
+
+    .banner {
+        max-width: 425px;
+        padding: 0 10px;
+        background-image: none;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        max-width: 425px;
+        align-items: center;
+    }
+
+    .banner-text {
+        width: 100%;
+        padding: 30px;
+        background-image: url(../images/Group\ 14.png);
+        background-repeat: no-repeat;
+        background-size: 425px;
+        margin-top: 0px;
+        padding: 0px 30px 50px;
+
+    }
+
+    .banner-text .banner-title {
+        font-size: 25px;
+    }
+
+    .banner-text .goat {
+        font-size: 50px;
+    }
+
+    .banner-tex p span{
+        font-size: 5px;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+    .sign-in-btn {
+        padding: 15px 25px;
+        font-size: 16px;
+        margin-right: 25px;
+    }
+    .go-rogue-btn {
+        padding: 15px 15px;
+        font-size: 16px;
+    
+    }
+    /* banner section ends */
+
+
 
 }
 
 
 /* responsive for tablet device */
 
-@media screen and (min-width:425px) and (max-width:768px) {
+@media screen and (min-width:426px) and (max-width:768px) {
+    /* nav section starts */
+
     .nav-container {
         flex-direction: column;
     }
@@ -38,6 +96,60 @@
         justify-content: space-around;
         margin-bottom: 10px;
     }
+
+    /* nav section ends */
+
+    /* banner section starts */
+    .banner {
+        max-width: 768px;
+        padding: 0 10px;
+        background-image: none;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        max-width: 768px;
+        align-items: center;
+    }
+
+    .banner-text{
+        width: 100%;
+        background-image: url(../images/Group\ 14.png);
+        background-repeat: no-repeat;
+        background-size: 768px;
+        padding: 30px 50px 30px;
+
+    }
+
+    .banner-text .banner-title {
+        font-size: 25px;
+        justify-content: center;
+    }
+
+    .banner-text .goat {
+        font-size: 50px;
+    }
+
+    .banner-tex p span{
+        font-size: 5px;
+    }
+
+    .banner-img img {
+        width: 100%;
+    }
+    .sign-in-btn {
+        padding: 15px 25px;
+        font-size: 16px;
+        margin-right: 25px;
+    }
+    .go-rogue-btn {
+        padding: 15px 15px;
+        font-size: 16px;
+    
+    }
+
+    /* banner section ends */
+
 
 
 }
